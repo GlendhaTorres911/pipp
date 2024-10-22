@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+		
+<body>
+    <div class="container">
+        <h1>Pip Calculator</h1>
+        <label for="lotSize">Lot Size:</label>
+        <input type="number" id="lotSize" placeholder="Enter lot size">
+        
+        <label for="pipValue">Pip Value:</label>
+        <input type="number" id="pipValue" placeholder="Enter pip value">
+        
+        <label for="currency">Currency:</label>
+        <select id="currency">
+            <option value="USD">$ (USD)</option>
+            <option value="EUR">€ (EUR)</option>
+            <option value="GBP">£ (GBP)</option>
+            <option value="JPY">¥ (JPY)</option>
+            <option value="AUD">$ (AUD)</option>
+        </select>
+        
+        <button onclick=
+        "calculatePip()">
+        Calculate
+        </button>
+        
+      <p id="result"></p>
+  </div>
+      <script src="script.js">
+      </script>
+</body>
+</html>
